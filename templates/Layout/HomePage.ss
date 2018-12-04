@@ -2,7 +2,8 @@
 <div class="home-page">
     <div class="container">
         <div class="row">
-            <section class="col-lg-8">
+            <section class="col-lg-7">
+                <h1>$Title</h1>
                 <% if $ElementalArea %>
                     <%-- Support for content blocks, if enabled --%>
                     <% if $ElementalArea.RichLinks %>
@@ -21,7 +22,7 @@
                 <% end_if %>
             </section>
 
-            <aside class="col-lg-3 offset-lg-1">
+            <aside class="col-lg-3 offset-lg-1 sidebar">
                 <% include NewsSummary %>
             </aside>
         </div>
