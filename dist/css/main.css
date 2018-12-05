@@ -18563,6 +18563,15 @@ body.theme-accent-white .nav-pills > li.active > a, body.theme-accent-white .nav
   text-decoration: underline;
 }
 
+.main h1 a,
+.main h2 a,
+.main h3 a,
+.main h4 a,
+.main h5 a,
+.main h6 a {
+  text-decoration: none;
+}
+
 .main .pagination a,
 .main .label,
 .main .btn,
