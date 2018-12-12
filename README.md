@@ -42,8 +42,8 @@ This library follows [Semver](http://semver.org). According to Semver, you will 
 
 All methods, with `public` visibility, are part of the public API. All other methods are not part of the public API. Where possible, we'll try to keep `protected` methods backwards-compatible in minor/patch versions, but if you're overriding methods then please test your work before upgrading.
 
-### Additional Configuration
-In order to view the styling of a page/elemental block in the WYSIWYG, you will need to add this as a yaml configuration:
+### WYSIWYG TinyMce Configuration
+In order to view the styling of a page/elemental block in the WYSIWYG, you will need to add the below code snippet as a yaml configuration:
 
 ```
 ---
@@ -54,4 +54,4 @@ SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
     - 'themes/watea/dist/css/editor.css'
 ```
 
-THis will enable the editor.css file in the SIlverStripe CMS, allowing you to view your styling changes in realtime.
+This will enable the editor.css file in the SilverStripe CMS, allowing you to view your styling changes in realtime.
