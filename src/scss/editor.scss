@@ -24,36 +24,52 @@ html {
   font-size: 62.5%; // Adjusted so that 36px is equal to 3.6rem
 }
 
+.blockquote-footer {
+  background-color: $gray-300;
+}
+
+// sass-lint:disable no-important
+.maori {
+  background-color: $danger !important;
+}
+
+.text-hide {
+  font: $font-size-base/$line-height-computed $font-family-sans-serif;
+  color: $gray-800;
+  outline: 1px dotted $text-muted;
+}
+
 // Right wrap editor class
-img.right.ss-htmleditorfield-file.image {
+.right {
   clear: right;
-  float: right;
+  float: right !important;
   margin: 0 0 2.4rem 2.4rem;
 }
 
 // Left wrap editor class
-img.left.ss-htmleditorfield-file.image {
+.left {
   clear: left;
-  float: left;
+  float: left !important;
   margin: 0 2.4rem 2.4rem 0;
 }
 
 // Center block
-img.center.ss-htmleditorfield-file.image {
+.center {
   display: block;
   margin: 0 auto;
 }
 
 // Left alone, no wrap
-img.leftAlone.ss-htmleditorfield-file.image {
+.leftAlone {
   clear: both;
   display: block;
   margin: 0 2.4rem 2.4rem 0;
 }
 
 // Right alone, no wrap
-img.rightAlone.ss-htmleditorfield-file.image {
+.rightAlone {
   clear: both;
   display: block;
   margin: 0 0 2.4rem auto;
 }
+// sass-lint:enable no-important

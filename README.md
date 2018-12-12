@@ -41,3 +41,17 @@ The [agency-extensions](https://github.com/silverstripe/cwp-agencyextensions) mo
 This library follows [Semver](http://semver.org). According to Semver, you will be able to upgrade to any minor or patch version of this library without any breaking changes to the public API. Semver also requires that we clearly define the public API for this library.
 
 All methods, with `public` visibility, are part of the public API. All other methods are not part of the public API. Where possible, we'll try to keep `protected` methods backwards-compatible in minor/patch versions, but if you're overriding methods then please test your work before upgrading.
+
+### Additional Configuration
+In order to view the styling of a page/elemental block in the WYSIWYG, you will need to add this as a yaml configuration:
+
+```
+---
+Name: wateatinymceconfig
+---
+SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
+  editor_css:
+    - 'themes/watea/dist/css/editor.css'
+```
+
+THis will enable the editor.css file in the SIlverStripe CMS, allowing you to view your styling changes in realtime.

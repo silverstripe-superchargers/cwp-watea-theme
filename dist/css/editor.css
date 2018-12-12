@@ -7609,30 +7609,44 @@ html {
   font-size: 62.5%;
 }
 
-img.right.ss-htmleditorfield-file.image {
+.blockquote-footer {
+  background-color: #dee2e6;
+}
+
+.maori {
+  background-color: #d4423c !important;
+}
+
+.text-hide {
+  font: 0.66666667 "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #343a40;
+  outline: 1px dotted #555;
+}
+
+.right {
   clear: right;
-  float: right;
+  float: right !important;
   margin: 0 0 2.4rem 2.4rem;
 }
 
-img.left.ss-htmleditorfield-file.image {
+.left {
   clear: left;
-  float: left;
+  float: left !important;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-img.center.ss-htmleditorfield-file.image {
+.center {
   display: block;
   margin: 0 auto;
 }
 
-img.leftAlone.ss-htmleditorfield-file.image {
+.leftAlone {
   clear: both;
   display: block;
   margin: 0 2.4rem 2.4rem 0;
 }
 
-img.rightAlone.ss-htmleditorfield-file.image {
+.rightAlone {
   clear: both;
   display: block;
   margin: 0 0 2.4rem auto;
