@@ -7599,6 +7599,41 @@ tfoot th:first-child::before {
   content: "\2014   ";
 }
 
+img.rightAlone.ss-htmleditorfield-file.image.img-responsive {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
+}
+
 html {
   font-size: 62.5%;
+}
+
+img.right.ss-htmleditorfield-file.image {
+  clear: right;
+  float: right;
+  margin: 0 0 2.4rem 2.4rem;
+}
+
+img.left.ss-htmleditorfield-file.image {
+  clear: left;
+  float: left;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+img.center.ss-htmleditorfield-file.image {
+  display: block;
+  margin: 0 auto;
+}
+
+img.leftAlone.ss-htmleditorfield-file.image {
+  clear: both;
+  display: block;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+img.rightAlone.ss-htmleditorfield-file.image {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
 }

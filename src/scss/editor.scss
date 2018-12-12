@@ -23,3 +23,37 @@
 html {
   font-size: 62.5%; // Adjusted so that 36px is equal to 3.6rem
 }
+
+// Right wrap editor class
+img.right.ss-htmleditorfield-file.image {
+  clear: right;
+  float: right;
+  margin: 0 0 2.4rem 2.4rem;
+}
+
+// Left wrap editor class
+img.left.ss-htmleditorfield-file.image {
+  clear: left;
+  float: left;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+// Center block
+img.center.ss-htmleditorfield-file.image {
+  display: block;
+  margin: 0 auto;
+}
+
+// Left alone, no wrap
+img.leftAlone.ss-htmleditorfield-file.image {
+  clear: both;
+  display: block;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+// Right alone, no wrap
+img.rightAlone.ss-htmleditorfield-file.image {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
+}

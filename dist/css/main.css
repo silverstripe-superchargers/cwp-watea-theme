@@ -14714,6 +14714,12 @@ tfoot th:first-child::before {
   content: "\2014   ";
 }
 
+img.rightAlone.ss-htmleditorfield-file.image.img-responsive {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
+}
+
 .carousel {
   margin-top: -2rem;
   margin-bottom: 4rem;
