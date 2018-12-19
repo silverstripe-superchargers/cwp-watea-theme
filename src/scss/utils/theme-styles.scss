@@ -23,7 +23,7 @@ $default-theme-colors: (
   "purple": #6239C8,
   "blue": #1F6BFE,
   "dark-blue": #123581,
-  "default-accent": $theme-bg-lighter,
+  "default-accent": $primary,
   "default-background": $theme-bg,
   "teal": #00837A,
   "green": #298436,
@@ -94,7 +94,7 @@ $theme-fonts: (
 // @param {string} $modifier ["none"] - Sass function to manipulate the color.
 // @param {number} $amount [0%] - Amount to manipulate by
 //
-// @example: @include theme-color("accent", background-color", "lighten", 20%)
+// @example: @include theme-color("accent", "background-color", "lighten", 20%)
 
 @mixin theme-color($area, $property: "background-color", $modifier: "none", $amount: 0%) {
   @each $name, $color in $theme-colors {
