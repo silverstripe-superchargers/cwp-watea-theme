@@ -7599,6 +7599,55 @@ tfoot th:first-child::before {
   content: "\2014   ";
 }
 
+img.rightAlone.ss-htmleditorfield-file.image.img-responsive {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
+}
+
 html {
   font-size: 62.5%;
+}
+
+.blockquote-footer {
+  background-color: #dee2e6;
+}
+
+.maori {
+  background-color: #d4423c !important;
+}
+
+.text-hide {
+  font: 0.66666667 "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #343a40;
+  outline: 1px dotted #555;
+}
+
+.right {
+  clear: right;
+  float: right !important;
+  margin: 0 0 2.4rem 2.4rem;
+}
+
+.left {
+  clear: left;
+  float: left !important;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.leftAlone {
+  clear: both;
+  display: block;
+  margin: 0 2.4rem 2.4rem 0;
+}
+
+.rightAlone {
+  clear: both;
+  display: block;
+  margin: 0 0 2.4rem auto;
 }
